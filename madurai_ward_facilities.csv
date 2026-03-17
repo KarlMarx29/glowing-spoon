@@ -1,0 +1,101 @@
+ward_no,ward_name,lat,lon,pop_2011,pop_2015,pop_2020,pop_2025,councillor,facilities_x,facilities_y
+1,Santhi Nagar,9.9561,78.1121,27487,29520,32274,35285,Tmt. D. Sharmila,"Govt School, PHC Hospital, Park",['school']
+2,Koodal Nagar,9.9624,78.1032,31115,33416,36534,39942,Tmt. M. Amutha,"School, Bus Stop, Library",['hospital']
+3,Anaiyur,9.9711,78.1065,20979,22530,24632,26931,Thiru G. Selva Ganapathy,"Hospital, Playground",['hospital']
+4,Sambandhar Alankulam,9.9635,78.1151,11802,12674,13857,15150,Tmt. Bhuvaneswari,"Anganwadi, Public Toilet","['hospital', 'hospital']"
+5,BB Kulam,9.9591,78.1183,19104,20517,22431,24524,Thiru Murugan,"School, Market",
+6,Meenambalpuram,9.9542,78.1202,13592,14597,15959,17448,Tmt. Jayanthi,"PHC Hospital, Park",['hospital']
+7,Kailaasapuram,9.9494,78.1221,5293,5684,6214,6794,Thiru Ramesh,"School, Water Tank","['hospital', 'hospital', 'hospital', 'hospital']"
+8,Vilangudi,9.9641,78.0893,13344,14331,15668,17129,Tmt. Lakshmi,"Bus Stand, Park",
+9,Thathaneri,9.9553,78.1345,14757,15848,17327,18943,Thiru Kumar,"Hospital, Crematorium","['hospital', 'hospital', 'hospital']"
+10,Aarappalayam,9.9335,78.1102,7198,7730,8451,9240,Tmt. Revathi,"Bus Stand, School",['hospital']
+11,Ponnaharam,9.9375,78.1081,11735,12603,13778,15064,Thiru Saravanan,"Library, Market",
+12,Krishnapalayam,9.9294,78.1167,17510,18805,20559,22477,Tmt. Rajalakshmi,"PHC, Park","['school', 'hospital']"
+13,Azhagaradi,9.9251,78.1201,9342,10033,10969,11992,Thiru Mani,"School, Playground",
+14,Viswasapuri,9.9282,78.1234,14552,15628,17086,18680,Tmt. Vasanthi,"Hospital, Water Tank","['hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'supermarket', 'school', 'hospital', 'hospital', 'hospital']"
+15,Melapponnaharam,9.9323,78.1182,11908,12788,13981,15286,Thiru Balamurugan,"Library, Park","['hospital', 'hospital', 'hospital', 'hospital']"
+16,Railway Colony,9.9152,78.1195,11745,12613,13790,15077,Tmt. Indira,"School, Health Center","['school', 'hospital', 'clinic', 'hospital', 'hospital', 'hospital', 'clinic', 'park', 'park']"
+17,Ellis Nagar,9.9182,78.1214,12045,12935,14142,15462,Thiru Rajendran,"Market, Bus Stop","['hospital', 'hospital', 'school', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'supermarket', 'supermarket', 'hospital']"
+18,SS Colony,9.9101,78.1267,16173,17369,18989,20761,Tmt. Saraswathi,"School, Playground","['school', 'hospital', 'hospital']"
+19,Ponmeni,9.9003,78.1221,23551,25293,27652,30232,Thiru Selvaraj,"Hospital, Park",['hospital']
+20,Arasaradi,9.9075,78.1108,11044,11860,12967,14177,Tmt. Nagajothi,"Bus Stand, School",['clinic']
+21,Ward21,9.912,78.104,12000,13000,14500,16000,Councillor 21,School,"['clinic', 'hospital']"
+22,Ward22,9.915,78.101,13800,15000,16500,18000,Councillor 22,PHC,"['school', 'school', 'hospital', 'hospital', 'clinic', 'school', 'park', 'school', 'school']"
+23,Ward23,9.918,78.098,8100,8800,9600,10400,Councillor 23,Park,"['school', 'school', 'school', 'hospital', 'clinic', 'hospital']"
+24,Ward24,9.92,78.095,9300,10100,11000,12000,Councillor 24,School,"['hospital', 'school', 'clinic', 'park', 'hospital', 'park', 'park', 'library', 'park', 'school']"
+25,Ward25,9.925,78.092,11400,12300,13500,14700,Councillor 25,Bus Stop,"['hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'park']"
+26,Ward26,9.928,78.09,10500,11300,12400,13500,Councillor 26,PHC,"['clinic', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'park']"
+27,Ward27,9.93,78.087,9700,10500,11500,12500,Councillor 27,School,"['hospital', 'clinic', 'hospital', 'clinic', 'clinic', 'park', 'school', 'library']"
+28,Ward28,9.933,78.085,10800,11700,12900,14100,Councillor 28,Market,
+29,Ward29,9.936,78.083,11500,12500,13800,15100,Councillor 29,Hospital,
+30,Ward30,9.939,78.081,10200,11100,12200,13400,Councillor 30,Park,
+31,Ward31,9.942,78.079,9500,10300,11400,12600,Councillor 31,School,['hospital']
+32,Ward32,9.945,78.078,11000,12000,13200,14500,Councillor 32,Bus Stop,['park']
+33,Ward33,9.948,78.076,9800,10700,11800,13000,Councillor 33,PHC,
+34,Ward34,9.95,78.074,12300,13400,14800,16200,Councillor 34,Library,['supermarket']
+35,Ward35,9.952,78.072,10100,11000,12200,13400,Councillor 35,School,['clinic']
+36,Ward36,9.954,78.07,11800,12900,14200,15600,Councillor 36,Hospital,"['school', 'hospital', 'hospital']"
+37,Ward37,9.956,78.068,9900,10800,11900,13100,Councillor 37,Park,
+38,Ward38,9.958,78.066,10700,11700,12900,14200,Councillor 38,School,
+39,Ward39,9.96,78.064,11500,12600,13900,15300,Councillor 39,PHC,
+40,Ward40,9.962,78.062,12100,13300,14700,16100,Councillor 40,Bus Stop,['hospital']
+41,Ward41,9.964,78.06,9800,10700,11800,13000,Councillor 41,School,['hospital']
+42,Ward42,9.966,78.058,11200,12300,13600,15000,Councillor 42,Market,
+43,Ward43,9.968,78.056,10100,11000,12200,13500,Councillor 43,Park,
+44,Ward44,9.97,78.054,11800,12900,14200,15600,Councillor 44,School,"['hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital']"
+45,Ward45,9.972,78.052,9500,10300,11400,12600,Councillor 45,PHC,"['supermarket', 'hospital', 'hospital', 'school', 'school']"
+46,Ward46,9.974,78.05,10400,11400,12600,13900,Councillor 46,Hospital,"['hospital', 'clinic', 'hospital', 'clinic', 'supermarket']"
+47,Ward47,9.976,78.048,11100,12200,13500,14900,Councillor 47,School,['hospital']
+48,Ward48,9.978,78.046,12000,13200,14600,16000,Councillor 48,Bus Stop,['hospital']
+49,Ward49,9.98,78.044,10800,11800,13000,14300,Councillor 49,Park,
+50,Ward50,9.982,78.042,9900,10800,11900,13100,Councillor 50,School,"['supermarket', 'hospital', 'hospital', 'clinic', 'clinic', 'hospital', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'clinic']"
+51,Ward51,9.984,78.04,10300,11300,12500,13800,Councillor 51,PHC,
+52,Ward52,9.986,78.038,11500,12600,13900,15300,Councillor 52,Market,
+53,Ward53,9.988,78.036,12100,13300,14700,16100,Councillor 53,Hospital,['clinic']
+54,Ward54,9.99,78.034,9800,10700,11800,13000,Councillor 54,School,"['clinic', 'hospital', 'clinic', 'hospital', 'clinic', 'hospital']"
+55,Ward55,9.992,78.032,11200,12300,13600,15000,Councillor 55,Park,"['hospital', 'hospital', 'hospital', 'clinic', 'hospital', 'clinic', 'clinic', 'school', 'hospital']"
+56,Ward56,9.994,78.03,10100,11000,12200,13500,Councillor 56,Bus Stop,"['clinic', 'hospital', 'hospital', 'hospital', 'park', 'library']"
+57,Ward57,9.996,78.028,11800,12900,14200,15600,Councillor 57,School,"['hospital', 'hospital', 'library']"
+58,Ward58,9.998,78.026,9500,10300,11400,12600,Councillor 58,PHC,"['clinic', 'hospital', 'hospital', 'clinic', 'hospital']"
+59,Ward59,10.0,78.024,10400,11400,12600,13900,Councillor 59,Hospital,['school']
+60,Ward60,10.002,78.022,11100,12200,13500,14900,Councillor 60,Market,['hospital']
+61,Ward61,10.004,78.02,12000,13200,14600,16000,Councillor 61,School,"['hospital', 'clinic', 'hospital', 'supermarket', 'hospital', 'park']"
+62,Ward62,10.006,78.018,10800,11800,13000,14300,Councillor 62,Park,"['hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'school', 'school']"
+63,Ward63,10.008,78.016,9900,10800,11900,13100,Councillor 63,PHC,"['clinic', 'hospital', 'hospital', 'hospital']"
+64,Ward64,10.01,78.014,10300,11300,12500,13800,Councillor 64,School,"['hospital', 'clinic', 'clinic', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital']"
+65,Ward65,10.012,78.012,11500,12600,13900,15300,Councillor 65,Hospital,"['hospital', 'clinic', 'clinic', 'clinic', 'clinic', 'hospital', 'clinic', 'clinic', 'school', 'school', 'hospital', 'school', 'hospital']"
+66,Ward66,10.014,78.01,12100,13300,14700,16100,Councillor 66,Bus Stop,"['hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'clinic', 'hospital']"
+67,Ward67,10.016,78.008,9800,10700,11800,13000,Councillor 67,School,
+68,Ward68,10.018,78.006,11200,12300,13600,15000,Councillor 68,Park,"['hospital', 'clinic', 'hospital']"
+69,Ward69,10.02,78.004,10100,11000,12200,13500,Councillor 69,PHC,['school']
+70,Ward70,10.022,78.002,11800,12900,14200,15600,Councillor 70,School,"['clinic', 'hospital', 'hospital', 'hospital', 'clinic']"
+71,Ward71,10.024,78.0,9500,10300,11400,12600,Councillor 71,Hospital,"['school', 'hospital', 'clinic', 'hospital']"
+72,Ward72,10.026,77.998,10400,11400,12600,13900,Councillor 72,Market,['clinic']
+73,Ward73,10.028,77.996,11100,12200,13500,14900,Councillor 73,School,
+74,Ward74,10.03,77.994,12000,13200,14600,16000,Councillor 74,Bus Stop,
+75,Ward75,10.032,77.992,10800,11800,13000,14300,Councillor 75,PHC,"['clinic', 'clinic', 'clinic', 'clinic']"
+76,Ward76,10.034,77.99,9900,10800,11900,13100,Councillor 76,School,"['clinic', 'clinic', 'clinic', 'clinic', 'clinic', 'clinic', 'hospital', 'school']"
+77,Ward77,10.036,77.988,10300,11300,12500,13800,Councillor 77,Park,
+78,Ward78,10.038,77.986,11500,12600,13900,15300,Councillor 78,Hospital,"['hospital', 'hospital', 'clinic', 'clinic']"
+79,Ward79,10.04,77.984,12100,13300,14700,16100,Councillor 79,School,"['hospital', 'hospital']"
+80,Ward80,10.042,77.982,9800,10700,11800,13000,Councillor 80,Bus Stop,"['hospital', 'hospital', 'clinic', 'hospital', 'hospital']"
+81,Ward81,10.044,77.98,11200,12300,13600,15000,Councillor 81,School,"['clinic', 'park']"
+82,Ward82,10.046,77.978,10100,11000,12200,13500,Councillor 82,PHC,"['hospital', 'park']"
+83,Ward83,10.048,77.976,11800,12900,14200,15600,Councillor 83,Market,
+84,Ward84,10.05,77.974,9500,10300,11400,12600,Councillor 84,School,"['hospital', 'school']"
+85,Ward85,10.052,77.972,10400,11400,12600,13900,Councillor 85,Hospital,"['clinic', 'hospital']"
+86,Ward86,10.054,77.97,11100,12200,13500,14900,Councillor 86,Park,"['clinic', 'hospital', 'clinic', 'clinic', 'hospital', 'park', 'school', 'hospital']"
+87,Ward87,10.056,77.968,12000,13200,14600,16000,Councillor 87,School,"['clinic', 'clinic', 'school']"
+88,Ward88,10.058,77.966,10800,11800,13000,14300,Councillor 88,Bus Stop,"['hospital', 'hospital', 'hospital']"
+89,Ward89,10.06,77.964,9900,10800,11900,13100,Councillor 89,PHC,"['hospital', 'hospital', 'hospital', 'clinic', 'clinic', 'hospital', 'hospital']"
+90,Ward90,10.062,77.962,10300,11300,12500,13800,Councillor 90,School,"['hospital', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'clinic']"
+91,Ward91,10.064,77.96,11500,12600,13900,15300,Councillor 91,Hospital,"['hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'clinic', 'clinic', 'supermarket', 'supermarket', 'supermarket', 'clinic', 'library']"
+92,Ward92,10.066,77.958,12100,13300,14700,16100,Councillor 92,Market,"['clinic', 'park']"
+93,Ward93,10.068,77.956,9800,10700,11800,13000,Councillor 93,School,"['clinic', 'clinic', 'hospital', 'hospital', 'clinic', 'hospital', 'hospital', 'supermarket', 'supermarket', 'hospital', 'hospital', 'hospital', 'hospital']"
+94,Ward94,10.07,77.954,11200,12300,13600,15000,Councillor 94,Park,"['clinic', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital', 'hospital']"
+95,Ward95,10.072,77.952,10100,11000,12200,13500,Councillor 95,PHC,"['hospital', 'hospital', 'clinic', 'hospital']"
+96,Ward96,10.074,77.95,11800,12900,14200,15600,Councillor 96,School,"['hospital', 'hospital', 'school']"
+97,Ward97,10.076,77.948,9500,10300,11400,12600,Councillor 97,Hospital,"['hospital', 'hospital', 'hospital', 'hospital']"
+98,Ward98,10.078,77.946,10400,11400,12600,13900,Councillor 98,Market,['hospital']
+99,Ward99,10.08,77.944,11100,12200,13500,14900,Councillor 99,School,"['hospital', 'hospital', 'hospital', 'hospital', 'hospital']"
+100,Ward100,10.082,77.942,12000,13200,14600,16000,Councillor 100,Bus Stop,"['hospital', 'hospital', 'clinic', 'clinic', 'hospital', 'clinic']"

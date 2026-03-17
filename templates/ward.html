@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Ward Dashboard</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#eef2f7;
+margin:0;
+padding:30px;
+}
+
+.header{
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+padding:25px;
+border-radius:10px;
+margin-bottom:25px;
+}
+
+.header h2{
+margin:0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card h3{
+margin-top:0;
+color:#2c3e50;
+}
+
+.stat{
+font-size:16px;
+margin:6px 0;
+}
+
+.stat i{
+margin-right:8px;
+color:#3498db;
+}
+
+/* Statistic boxes */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:15px;
+margin-bottom:20px;
+}
+
+.stat-box{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.stat-box i{
+font-size:30px;
+margin-bottom:8px;
+}
+
+.school{color:#27ae60;}
+.hospital{color:#e74c3c;}
+.park{color:#2ecc71;}
+.clinic{color:#f39c12;}
+.density{color:#8e44ad;}
+
+iframe{
+width:100%;
+height:500px;
+border:none;
+border-radius:10px;
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h2><i class="fa-solid fa-location-dot"></i> {{ ward.ward_name }} Ward Dashboard</h2>
+<p>Smart Ward Analytics | Madurai Smart City</p>
+
+</div>
+
+
+<div class="card">
+
+<h3><i class="fa-solid fa-circle-info"></i> Ward Information</h3>
+
+<p class="stat"><b>Ward No :</b> {{ ward.ward_no }}</p>
+<p class="stat"><b>Councillor :</b> {{ ward.councillor }}</p>
+<p class="stat"><b>Facilities :</b> {{ ward.facilities }}</p>
+
+</div>
+
+
+<br>
+
+<div class="grid">
+
+<div class="card">
+
+<h3><i class="fa-solid fa-users"></i> Population</h3>
+
+<p class="stat">2011 : {{ ward.pop_2011 }}</p>
+<p class="stat">2015 : {{ ward.pop_2015 }}</p>
+<p class="stat">2020 : {{ ward.pop_2020 }}</p>
+<p class="stat">2025 : {{ ward.pop_2025 }}</p>
+
+</div>
+
+<div class="card">
+
+<h3><i class="fa-solid fa-chart-line"></i> Population Forecast</h3>
+
+<p class="stat">2030 : {{ pred2030 }}</p>
+<p class="stat">2035 : {{ pred2035 }}</p>
+<p class="stat">2040 : {{ pred2040 }}</p>
+
+</div>
+
+</div>
+
+
+<br>
+
+<h3>Ward Facilities</h3>
+
+<div class="stats">
+
+<div class="stat-box school">
+<i class="fa-solid fa-school"></i>
+<h4>{{ schools }}</h4>
+<p>Schools</p>
+</div>
+
+<div class="stat-box hospital">
+<i class="fa-solid fa-hospital"></i>
+<h4>{{ hospitals }}</h4>
+<p>Hospitals</p>
+</div>
+
+<div class="stat-box clinic">
+<i class="fa-solid fa-user-doctor"></i>
+<h4>{{ clinics }}</h4>
+<p>Clinics</p>
+</div>
+
+<div class="stat-box park">
+<i class="fa-solid fa-tree"></i>
+<h4>{{ parks }}</h4>
+<p>Parks</p>
+</div>
+
+<div class="stat-box density">
+<i class="fa-solid fa-chart-area"></i>
+<h4>{{ density }}</h4>
+<p>Density / km²</p>
+</div>
+
+</div>
+
+
+<div class="grid">
+
+<div class="card">
+
+<h3><i class="fa-solid fa-ranking-star"></i> Smart Ward Ranking</h3>
+
+<p class="stat"><b>Ward Rank :</b> {{ rank }} / 100</p>
+
+<p class="stat">Education Score : {{ education_score }}</p>
+<p class="stat">Health Score : {{ health_score }}</p>
+<p class="stat">Green Index : {{ green_index }}</p>
+<p class="stat">Population Pressure : {{ pressure }}</p>
+
+</div>
+
+<div class="card">
+
+<h3><i class="fa-solid fa-chart-column"></i> Population Growth Chart</h3>
+
+{{ graph|safe }}
+
+</div>
+
+</div>
+
+
+<br>
+
+<div class="card">
+
+<h3><i class="fa-solid fa-map-location-dot"></i> Ward Facility Map</h3>
+
+<iframe src="/static/facility_map.html"></iframe>
+
+</div>
+
+
+</body>
+</html>

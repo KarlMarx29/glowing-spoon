@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Madurai Smart City Dashboard</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#eef2f7;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:240px;
+height:100vh;
+background:linear-gradient(180deg,#1e3c72,#2a5298);
+position:fixed;
+color:white;
+box-shadow:2px 0 10px rgba(0,0,0,0.2);
+}
+
+.sidebar h2{
+text-align:center;
+padding:25px 10px;
+font-weight:600;
+border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.sidebar a{
+display:block;
+padding:15px 20px;
+color:white;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+.sidebar a i{
+margin-right:10px;
+}
+
+.sidebar a:hover{
+background:rgba(255,255,255,0.15);
+padding-left:30px;
+}
+
+/* Main Area */
+
+.main{
+margin-left:240px;
+padding:30px;
+}
+
+/* Header */
+
+.header{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+margin-bottom:25px;
+}
+
+.header h1{
+margin:0;
+color:#2c3e50;
+}
+
+/* Cards */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+cursor:pointer;
+transition:0.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+.card i{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* Different card colors */
+
+.map i{color:#3498db;}
+.heat i{color:#e74c3c;}
+.timeline i{color:#27ae60;}
+.ward i{color:#9b59b6;}
+
+/* Map Frame */
+
+iframe{
+width:100%;
+height:650px;
+border:none;
+margin-top:25px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2><i class="fa-solid fa-city"></i> Madurai GIS</h2>
+
+<a href="/dashboard"><i class="fa-solid fa-house"></i> Dashboard</a>
+
+
+
+<a href="/choropleth"><i class="fa-solid fa-map"></i> Choropleth</a>
+
+<a href="/heatmap"><i class="fa-solid fa-fire"></i> Heatmap</a>
+
+<a href="/timeline"><i class="fa-solid fa-chart-line"></i> Timeline</a>
+
+<a href="/chart"><i class="fa-solid fa-chart-pie"></i> Analytics</a>
+
+<a href="/logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+
+</div>
+
+
+<div class="main">
+
+<div class="header">
+<h1>Madurai Population Density Dashboard</h1>
+<p>Smart City Population Visualization System</p>
+</div>
+
+
+<div class="cards">
+
+<div class="card map" onclick="loadMap('/choropleth')">
+
+<i class="fa-solid fa-map"></i>
+
+<h3>Choropleth Map</h3>
+
+<p>Ward population density</p>
+
+</div>
+
+
+<div class="card heat" onclick="loadMap('/heatmap')">
+
+<i class="fa-solid fa-fire"></i>
+
+<h3>Heatmap</h3>
+
+<p>Population hotspot visualization</p>
+
+</div>
+
+
+<div class="card timeline" onclick="loadMap('/timeline')">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Timeline</h3>
+
+<p>Population growth 2011–2025</p>
+
+</div>
+
+
+
+
+</div>
+
+
+<iframe id="mapFrame"></iframe>
+
+</div>
+
+
+<script>
+
+function loadMap(route){
+
+document.getElementById("mapFrame").src = route;
+
+}
+
+</script>
+
+</body>
+</html>

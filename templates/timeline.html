@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<style>
+
+#map{
+height:600px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Population Timeline (2011 – 2025)</h2>
+
+<input type="range" min="2011" max="2025" step="4"
+value="2011" id="yearSlider">
+
+<span id="yearLabel">2011</span>
+
+<div id="map"></div>
+
+<script>
+
+var map = L.map('map').setView([9.9252,78.1198],12);
+
+L.tileLayer(
+'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+).addTo(map);
+
+var wards = {{ wards | tojson }};
+
+var markers=[];
+
+function draw(year){
+
+markers.forEach(m=>map.removeLayer(m));
+markers=[];
+
+wards.forEach(function(w){
+
+var pop = w["pop_"+year];
+
+var marker = L.circleMarker(
+[w.lat,w.lon],
+{
+radius: pop/5000,
+color:"red"
+}).addTo(map);
+
+marker.bindPopup(
+"Ward "+w.ward_no+
+"<br>Population "+Math.round(pop)
+);
+
+markers.push(marker);
+
+});
+
+}
+
+draw(2011);
+
+document.getElementById("yearSlider").oninput=function(){
+
+var year=this.value;
+
+document.getElementById("yearLabel").innerHTML=year;
+
+draw(year);
+
+}
+
+</script>
+
+</body>
+
+</html>

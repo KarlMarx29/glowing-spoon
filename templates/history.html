@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>History</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+}
+
+table{
+margin:auto;
+margin-top:50px;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid black;
+padding:10px 20px;
+}
+
+th{
+background:#333;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>System Usage History</h2>
+
+<table>
+
+<tr>
+
+<th>ID</th>
+<th>User ID</th>
+<th>Year</th>
+<th>Time</th>
+
+</tr>
+
+{% for row in data %}
+
+<tr>
+
+<td>{{row[0]}}</td>
+<td>{{row[1]}}</td>
+<td>{{row[2]}}</td>
+<td>{{row[3]}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>
